@@ -26,4 +26,4 @@ artifacts:
   objects:
     location: "${_JAR_LOCATION}"
     paths:
-    - "build/libs/dataproc-trino-autoscaler-all.jar"
+    - "build/libs/trino-autoscaler-on-dataproc-all.jar"

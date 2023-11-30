@@ -353,7 +353,7 @@ You can monitor the Trino job on Trino UI as well.
 
 -   5\. Update Init Script: Use your preferred text editor edit following lines in the `demo/trino-autoscaler-init.sh` file:
 
-        CONFIG_JAR_FILE_GCS_URI="gs://<your-bucket>/trino_scaler/dataproc-trino-autoscaler-all.jar";
+        CONFIG_JAR_FILE_GCS_URI="gs://<your-bucket>/trino_scaler/trino-autoscaler-on-dataproc-all.jar";
 
         CONFIG_PROTO_FILE_GCS_URI="gs://<your-bucket>/trino_scaler/config.textproto";
 
