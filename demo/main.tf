@@ -97,7 +97,7 @@ locals {
   config_value = "readonly CONFIG_PROTO_FILE_GCS_URI=\"${google_storage_bucket_object.sample_config.output_name}\";"
   dataproc_init_script_content = replace(
     replace(
-      file("${path.root}/../trino-autoscaler-init.sh"),
+      file("${path.root}/trino-autoscaler-init.sh"),
       "readonly CONFIG_JAR_FILE_GCS_URI=\"\";",
       "readonly CONFIG_JAR_FILE_GCS_URI=\"${null_resource.build_application_jar.triggers.jar_folder_url}/trino-autoscaler-on-dataproc-all.jar\""),
     "readonly CONFIG_PROTO_FILE_GCS_URI=\"\";",
