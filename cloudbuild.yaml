@@ -16,7 +16,7 @@
 
 ---
 steps:
-- name: "gradle:8.2.1-jdk11"
+- name: "gradle:8.5-jdk11"
   args:
   - "gradle"
   - "clean"
