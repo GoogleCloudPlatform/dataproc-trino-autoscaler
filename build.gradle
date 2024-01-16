@@ -50,7 +50,7 @@ dependencies {
     runtimeOnly "com.google.flogger:flogger-system-backend:${floggerVersion}"
 
     // GCP Services
-    implementation "com.google.cloud:google-cloud-monitoring:3.33.0"
+    implementation "com.google.cloud:google-cloud-monitoring:3.34.0"
     implementation "com.google.cloud:google-cloud-dataproc:4.29.0"
     implementation "com.google.cloud:google-cloud-compute:1.43.0"
 }
