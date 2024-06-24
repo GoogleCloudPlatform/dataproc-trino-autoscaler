@@ -46,7 +46,7 @@ dependencies {
 
     // GCP Services
     implementation "com.google.cloud:google-cloud-monitoring:3.35.0"
-    implementation "com.google.cloud:google-cloud-dataproc:4.31.0"
+    implementation "com.google.cloud:google-cloud-dataproc:4.42.0"
     implementation "com.google.cloud:google-cloud-compute:1.44.0"
 }
 
